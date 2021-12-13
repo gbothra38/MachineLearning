@@ -1,0 +1,21 @@
+# MachineLearning
+## 1. KNN Classifier Implementation (Iris Dataset)
+- Supervised Problem: The problem in which we are given a dataset which has target/dependent/labelled variable.Here we know for what we are building the model
+- Classification Problem: The problem where dataset contains categorical target variable.
+- Multi class classificatio problem: The problem where dataset contains categorical target, where categories are more than 2.
+- KNN Implementation
+  - Algorithm
+      - Find the distance between new_data_instance and all existing instances
+      - Find nearest K points.
+      - Among them choose which target class occurred in majority.
+  - Catch
+      - Choose approaprite value for K
+  - Steps
+      - Define Distance Function (Euclidian)
+      - Define FindNeighter Function
+      - Define Predict Function
+      - Define Evaluation Function
+- Total Attributes - 4
+- Number of instances - 150
+- Score (Accuracy) - 97.4%
+- [View Notebook](https://github.com/gayatribasude/MachineLearning/blob/master/Iris.ipynb)
